@@ -10,4 +10,8 @@ class DefaultController extends Controller
     {
         return $this->render('AcmeOtobankBundle:Default:index.html.twig', array('name' => $name));
     }
+
+    public function helloAction($user) {
+        return $this->render('AcmeOtobankBundle:Default:index.html.twig');
+    }
 }
