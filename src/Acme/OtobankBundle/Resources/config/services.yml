@@ -1,0 +1,7 @@
+parameters:
+#    acme_otobank.example.class: Acme\OtobankBundle\Example
+
+services:
+#    acme_otobank.example:
+#        class: %acme_otobank.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
